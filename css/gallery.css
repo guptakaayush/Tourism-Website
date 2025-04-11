@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%;
+    mask-size: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(/img/bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 2.1875rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 7.5rem;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1.25rem;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 0.1875rem;
+    width: 0;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -0.625rem;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+}
+
+.Wel{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
+    height: fit-content;
+}
+
+.mount{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
+    height: fit-content;
+}
+
+.pashu{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
+    height: fit-content;
+}
+
+.janak{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
+    height: fit-content;
+}
+
+.pok{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
+    height: fit-content;
+}
+
+.lum{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: solid rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
+    height: fit-content;
+}
+
+img{
+    width: 32rem;
+    float: left;
+    margin: 1rem;
+    border: black;
+    border-radius: 5rem;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+}
